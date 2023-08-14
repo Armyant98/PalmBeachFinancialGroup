@@ -5187,3 +5187,44 @@ input, select, textarea {
 		transform: translateX(0);
 		visibility: visible;
 	}
+
+
+
+	/* carousel */
+
+	@keyframes slide {
+		from {
+			transform: translateX(0)
+		}
+
+		to {
+			transform: translateX(-100%);
+		}
+	}
+
+	#wrapper > #one > header > * {
+		width: 100%;
+		
+		
+	}
+
+	#carousel {
+		width: 200%;
+		padding: 60px 0;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+
+
+	.logos-slide {
+		display: inline-block;
+		white-space: nowrap;
+		overflow: hidden;
+		animation: 35s slide infinite linear
+	}
+
+	.logos-slide img {
+		height: 50px;
+		min-width: 100px;
+		margin: 0 40px;
+	}
