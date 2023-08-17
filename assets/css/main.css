@@ -3219,7 +3219,7 @@ input, select, textarea {
 		top: 0;
 		left: 0;
 		width: 100%;
-		height: 3.25rem;
+		height: 3.5rem;
 		line-height: 3.25rem;
 		background-color: #ffffff;
 		box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.125);
@@ -3232,6 +3232,10 @@ input, select, textarea {
 			height: inherit;
 			line-height: inherit;
 			border-bottom: 0;
+		}
+
+		#header span {
+			font-size:  1.25em;
 		}
 
 		.logo {
