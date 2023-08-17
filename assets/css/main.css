@@ -3626,8 +3626,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#banner .content.primary {
-				height: auto;
-				width: 100%;
+				background-position: center right;
 			}
 
 			#banner .actions.special{
